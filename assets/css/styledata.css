@@ -1,4 +1,11 @@
-@import url("./fonts.css");
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+* {
+    font-family: 'Roboto-Regular', sans-serif;
+}
 
 .content-form {
     display: flex;
