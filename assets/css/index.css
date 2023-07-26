@@ -1,1 +1,47 @@
 @import url("./fonts.css");
+body{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+header,main,footer{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    background-color: #1f2937;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.hero-container{
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.hero-container h1{
+    font-family: 'RobotoBlack';
+    font-size: 48px;
+    color: #f9faf8;
+    margin-top: 5px;
+}
+.hero-container p,.hero-container a{
+    font-family: 'RobotoRegular',sans-serif;
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+.hero-container a{
+    background-color: #3882f6;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 5px 20px;
+    border: none;
+}
+.hero-container a:hover{
+    font-size: 20px;
+}
