@@ -45,3 +45,25 @@ header,main,footer{
 .hero-container a:hover{
     font-size: 20px;
 }
+/*quote*/
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+@font-face {
+    font-family: 'Roboto-LightItalic';
+    src: url(../fonts/Roboto-LightItalic.ttf);
+}
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    font-family: 'Roboto-LightItalic', sans-serif;
+    font-size: 36px;
+    color:#1f2937;
+}
+figcaption {
+    text-align: right;
+    font-weight: 700;
+}
