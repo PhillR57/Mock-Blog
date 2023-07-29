@@ -5,7 +5,39 @@
 
 * {
     font-family: 'Roboto-Regular', sans-serif;
+    margin: 0;
 }
+
+header, h1.logo {
+    background-color: #1f2937;
+    color: #fff;
+  }
+  li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .logo-menu {
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    /*font-family: "RobotoRegular";*/
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  
+  .content-logo-menu {
+    display: flex;
+    align-items: baseline;
+    width: 70vw;
+    justify-content: space-between;
+  }
+  
+  .menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+  }
 
 .content-form {
     display: flex;
@@ -46,4 +78,13 @@ button {
     padding: 10px;
     border-radius: 3%;
     margin-top: 8px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background: #1f2937;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
