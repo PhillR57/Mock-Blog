@@ -3,6 +3,25 @@ body, header, main, footer{
     margin: 0;
     padding: 0;
 }
+.logo-menu {
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    /*font-family: "RobotoRegular";*/
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  
+.content-logo-menu {
+    display: flex;
+    align-items: baseline;
+    width: 70vw;
+    justify-content: space-between;
+}
+header, h1.logo {
+    background-color: #1f2937;
+    color: #fff;
+  }
 main a{
     background-color: #3882f6;
     border-radius: 10px;
