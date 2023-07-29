@@ -1,2 +1,2 @@
 # blog
-https://cegs0612.github.io/kreativestorm/
+https://kreativebootcamp.github.io/blog/
