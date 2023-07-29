@@ -9,11 +9,15 @@ main a{
     border-radius: 10px;
     font-weight: bold;
     padding: 5px 20px;
-    border: none;
     width: fit-content;
+    font-family: 'RobotoRegular',sans-serif;
+    font-size: 18px;
+    color:#e5e7eb;
+    text-decoration: none;
 }
 main a:hover{
-    font-size: 20px;
+    background-color: #e5e7eb;
+    color: #1f2937;
 }
 main img{
     border-radius: 20px;
@@ -21,7 +25,7 @@ main img{
     border-color: #3882f6;
 }
 .deal-section{
-    background-color: #1f2937;
+    background-color:#ffffff;
     width: 100vw;
     height: 90vh;
     display: flex;
@@ -32,13 +36,13 @@ main img{
 .deal-section h1{
     font-family: 'RobotoBlack';
     font-size: 48px;
-    color: #f9faf8;
+    color:#1f2937;
     margin-top: 5px;
 }
-.deal-section p, main a{
+.deal-section p{
     font-family: 'RobotoRegular',sans-serif;
     font-size: 18px;
-    color: #e5e7eb;
+    color:#1f2937;
     text-decoration: none;
 }
 .deal-text{
