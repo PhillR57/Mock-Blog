@@ -1,4 +1,4 @@
-@import url("./fonts.css");
+@import url("shared.css");
 
 body, header, main, footer{
     margin: 0;

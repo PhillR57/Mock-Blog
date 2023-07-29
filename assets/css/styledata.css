@@ -1,6 +1,19 @@
+@import url("shared.css");
+
 @font-face {
     font-family: 'RobotoRegular';
     src: url(../fonts/Roboto-Regular.ttf);
+}
+body{
+  padding: 0;
+  margin: 0;
+  position: relative; 
+  min-height: 100vh; 
+}
+
+footer{
+  position: fixed !important;
+  bottom: 0;
 }
 
 * {
