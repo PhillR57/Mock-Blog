@@ -1,0 +1,81 @@
+@import url("./shared.css");
+/*
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  position: relative; 
+}
+
+footer{
+  bottom: 0;
+}
+
+* {
+  font-family: 'Roboto-Regular', sans-serif;
+  margin: 0;
+}*/
+
+main{
+  height: calc(100vh - 140px);
+  background-color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  
+}
+
+.intro-text {
+  padding: 40px;
+  border-radius: 3%;
+}
+
+.content-form h1 {
+  color: #1F2937;
+  font-family: 'RobotoExtra', sans-serif;
+  margin-bottom: 20px;
+}
+
+.content-form p { 
+  color: #1F2937;
+  font-family: 'RobotoRegular', sans-serif;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.data-form {
+  display: flex;
+  flex-direction: column;
+  width: 530px;
+}
+
+label {
+  margin-top: 8px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 3px solid #e5e7eb;
+  border-radius: 3%;
+}
+
+button {
+  background-color: #3882F6;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 8px;
+}

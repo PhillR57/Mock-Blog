@@ -1,11 +1,15 @@
 footer {
     background-color: #1F2937;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    width: 100%;
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   footer p {
-    margin: 0;
+    margin: 20px;
+    font-family: 'RobotoRegular';
+    font-size: 18px;
+    color: #e5e7eb;
   }

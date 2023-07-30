@@ -1,21 +1,6 @@
 @import url("./shared.css");
 @import url("./hero-content.css");
-@import url("./fonts.css");
 
-body {
-  margin: 0;
-  padding: 0;
-  display: block;
-  position: relative; 
-  min-height: 100vh; 
-}
-
-header,
-main,
-footer {
-  margin: 0;
-  padding: 0;
-}
 .hero {
   background-color: #1f2937;
   margin: 0;
@@ -32,7 +17,7 @@ footer {
   padding-bottom: 70px;
 }
 .hero-container h1 {
-  font-family: "RobotoBlack";
+  font-family: "RobotoBlack",sans-serif;
   font-size: 48px;
   color: #f9faf8;
   margin-top: 5px;
