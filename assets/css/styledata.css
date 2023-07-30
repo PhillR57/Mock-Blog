@@ -9,11 +9,12 @@ body{
   padding: 0;
   margin: 0;
   position: relative; 
-  min-height: 100vh; 
+  /*min-height: 100vh; */
+  border: 1px solid orange;
 }
 
 footer{
-  position: fixed !important;
+  /*position: fixed !important;*/
   bottom: 0;
 }
 
@@ -21,51 +22,57 @@ footer{
   font-family: 'Roboto-Regular', sans-serif;
   margin: 0;
 }
-
+/*
 header, h1.logo {
   background-color: #1f2937;
   color: #fff;
 }
-
+*/
+/*
 a {
   text-decoration: none;
   color: #fff;
 }
-
+*/
+/*
 li a {
   color: #fff;
   text-decoration: none;
 }
-  
+*/
+/*  
 .logo-menu {
   display: flex;
   justify-content: center;
   padding: 10px 20px;
-  /*font-family: "RobotoRegular";*/
   padding-top: 10px;
   padding-bottom: 20px;
 }
-  
+*/
+/*  
 .content-logo-menu {
   display: flex;
   align-items: baseline;
   width: 70vw;
   justify-content: space-between;
 }
-  
+*/
+ /* 
 .menu ul{
   display: flex;
   list-style: none;
   justify-content: space-between;
 }
-
+*/
 .content-form {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
   background-color: #e5e7eb;
+
+  /*border: 1px solid red;*/
 }
 
 .intro-text {
@@ -107,3 +114,4 @@ button {
   border-radius: 3%;
   margin-top: 8px;
 }
+
