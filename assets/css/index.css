@@ -134,11 +134,9 @@ q {
   margin: 0 auto;
   font-family: "RobotoRegular", sans-serif;
 }
-
 .action-link {
   padding-right: 3rem;
 }
-
 .action-button {
   background-color: #3882f6;
   border: 1.5px solid white;
@@ -151,22 +149,14 @@ q {
   width: 6rem;
   cursor: pointer;
 }
-
 .action-text {
   padding: 0 5rem 0 2rem;
   margin-left: 3rem;
   font-size: 1rem;
 }
-
 .action-text p {
   font-size: 0.9rem;
 }
-
 .section-action {
   padding: 4rem;
 }
-
-
-
-
-
