@@ -115,7 +115,8 @@ footer {
 }
 q {
     font-style: italic;
-    font-size: 36px;    
+    font-size: 36px;  
+    quotes: none;
 }
 .author {
     font-weight: bold;
