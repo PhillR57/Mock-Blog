@@ -121,6 +121,7 @@ q {
 .author {
     font-weight: bold;
     align-self: flex-end;
+    font-size: 26px;
 }
 /* Call to action */
 .container-action {
