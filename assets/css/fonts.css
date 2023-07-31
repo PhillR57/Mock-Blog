@@ -41,8 +41,6 @@ font-face {
   }
   font-face {
     font-family: 'RobotoLightItalic';
-    font-weight: normal;
-    font-style: normal;
     src: url('../fonts/Roboto-LightItalic.ttf') format('truetype'); 
   }
   font-face {
