@@ -1,24 +1,4 @@
 @import url("./shared.css");
-/*
-@font-face {
-    font-family: 'RobotoRegular';
-    src: url(../fonts/Roboto-Regular.ttf);
-}
-
-body{
-  padding: 0;
-  margin: 0;
-  position: relative; 
-}
-
-footer{
-  bottom: 0;
-}
-
-* {
-  font-family: 'Roboto-Regular', sans-serif;
-  margin: 0;
-}*/
 
 main{
   height: calc(100vh - 140px);
