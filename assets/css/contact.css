@@ -14,7 +14,7 @@ main{
   align-items: center;
   padding-top: 20px;
   padding-bottom: 60px;
-  
+  font-family: 'RobotoRegular', sans-serif;
 }
 
 .intro-text {
@@ -24,13 +24,11 @@ main{
 
 .content-form h1 {
   color: #1F2937;
-  font-family: 'RobotoExtra', sans-serif;
   margin-bottom: 20px;
 }
 
 .content-form p { 
   color: #1F2937;
-  font-family: 'RobotoRegular', sans-serif;
   padding-top: 5px;
   padding-bottom: 5px;
   text-align: center;
