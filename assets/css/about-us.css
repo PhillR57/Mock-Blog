@@ -34,7 +34,9 @@ main a:hover{
     font-size: 20px;
 }
 main img{
+    height: fit-content;
     width: fit-content;
+    max-width: 20vw;
     border-radius: 8px;
     border-color: #1f2937;
     border: solid;
