@@ -30,9 +30,6 @@ main a{
     font-family: 'RobotoRegular',sans-serif;
     text-decoration: none;
 }
-main a:hover{
-    font-size: 20px;
-}
 main img{
     height: fit-content;
     width: fit-content;
@@ -76,4 +73,8 @@ main img{
 }
 .top{
     margin: 15px;
+}
+.top:hover{
+    background-color: #e5e7eb;
+    color: #1f2937;
 }
