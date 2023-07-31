@@ -49,6 +49,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: 'RobotoLightItalic', sans-serif;
 }
 .info h1 {
   font-size: 38px;
@@ -99,6 +100,7 @@
   padding-bottom: 30px;
   display: flex;
   justify-content: center;
+  font-family: 'RobotoLightItalic', sans-serif;
 }
 .content-quote {
   max-width: 60vw;
@@ -110,14 +112,12 @@
   color: #1F2937;     
 }
 .content-quote q {
-  font-family: 'RobotoLightItalic';
   font-style: italic;
   font-size: 36px;  
   quotes: none;
   color: #1f2937;
 }
 .author {
-  font-family: "RobotoRegular", sans-serif;
   font-weight: bold;
   align-self: flex-end;
   font-size: 26px;
